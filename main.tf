@@ -90,8 +90,6 @@ resource "aws_internet_gateway" "hashicat" {
   }
 }
 
-
-
 resource "aws_route_table" "hashicat" {
   vpc_id = aws_vpc.hashicat.id
 
