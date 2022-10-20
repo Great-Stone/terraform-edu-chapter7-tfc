@@ -82,8 +82,6 @@ resource "aws_security_group" "hashicat" {
     Name = "${var.prefix}-security-group"
   }
 }
-
-
 resource "aws_internet_gateway" "hashicat" {
   vpc_id = aws_vpc.hashicat.id
 
