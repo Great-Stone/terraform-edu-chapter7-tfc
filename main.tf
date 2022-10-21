@@ -1,12 +1,12 @@
 terraform {
-#  cloud {
-#    organization = "IAC1020"
-#    hostname     = "app.terraform.io" # default
-#
-#    workspaces {
-#      name = "terraform-edu-chapter7-tfc"
-#    }
-#  }
+  cloud {
+    organization = "COESTUDY"
+    hostname     = "app.terraform.io" # default
+
+    workspaces {
+      name = "terraform-edu-chapter7-tfc"
+    }
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
